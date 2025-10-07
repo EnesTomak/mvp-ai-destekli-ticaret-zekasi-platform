@@ -156,14 +156,3 @@ def render():
 			})
 			st.dataframe(cost_comparison, use_container_width=True)
 		
-		# İndirme seçenekleri
-		st.subheader("📥 Rapor İndirme")
-		col1, col2 = st.columns(2)
-		with col1:
-			if st.button("📄 PDF Olarak İndir"):
-				st.info("PDF rapor oluşturma özelliği geliştirilecek")
-		with col2:
-			if st.button("📊 Excel Olarak İndir"):
-				st.info("Excel rapor oluşturma özelliği geliştirilecek")
-
-
